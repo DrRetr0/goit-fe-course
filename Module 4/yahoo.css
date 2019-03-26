@@ -1,0 +1,25 @@
+input{
+    border: none;
+    width: 400px;
+    height: 50px;
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+input::placeholder{
+color: blue;
+font-size: 12px;
+}
+.rep{
+    background-image: url(https://eshulga.github.io/GoIT-Land/img/repeta2.jpg);
+    margin-left: 500px;
+    margin-top: -500px;
+    height: 576px;
+    width: 572px;
+}
+.black{
+    background-image: url(https://eshulga.github.io/GoIT-Land/img/Anton2.jpg);
+    margin-top: -500px;
+    height: 576px;
+    width: 572px;
+}

@@ -1,0 +1,12 @@
+input{
+    border: none;
+    width: 400px;
+    height: 50px;
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+input::placeholder{
+color: blue;
+font-size: 12px;
+}
