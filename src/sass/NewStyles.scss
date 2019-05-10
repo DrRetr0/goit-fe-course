@@ -1,0 +1,493 @@
+@font-face {
+    font-family: "Podliva";
+    src: url(../fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* header */
+.MG {
+    color: aquamarine;
+    margin-left: 300px;
+}
+
+.comp {
+    color: aquamarine;
+    display: flex;
+    margin-top: -70px;
+    margin-left: 1000px;
+    justify-content: space-evenly;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover {
+    color: red;
+    text-decoration: underline;
+}
+.kimo {
+    width: 1920px;
+    height: 1134px;
+    background: linear-gradient(rgba(247, 60, 3, 0.5), rgba(241, 218, 5, 0.5)),  url(../images/Orel.png);
+}
+.citi {
+    color: aliceblue;
+    font-family: "Podliva";
+    font-weight: 400;
+    font-size: 72px;
+    text-align: center;
+}
+.wtm {
+    color: aliceblue;
+    font-size: 150px;
+    text-align: center;
+}
+.Lm {
+    width: 161px;
+    height: 40px;
+    background-image: url(./Learnmore.png);
+    position: relative;
+    left: 1000px;
+}
+/* main */
+.work {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.w3 {
+    font-family: "Podliva";
+    font-weight: 400;
+}
+
+.AZ::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card1 {
+    width: 350px;
+    height: 140px;
+    background-image: url(./photography.png);
+}
+
+.card2 {
+    width: 350px;
+    height: 140px;
+    background-image: url(./web-design.png);
+}
+
+.card3 {
+    width: 359px;
+    height: 136px;
+    background-image: url(./creativity.png);
+}
+
+.card4 {
+    width: 350px;
+    height: 140px;
+    background-image: url(./SEo.png);
+}
+
+.card5 {
+    width: 350px;
+    height: 140px;
+    background-image: url(./cssHtml.png);
+}
+
+.card6 {
+    width: 372px;
+    height: 136px;
+    background-image: url(./Digital.png);
+}
+
+/* body */
+.headsquad {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.wwa {
+    font-family: "Podliva";
+    font-weight: 400;
+}
+
+.MOT::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 60px;
+    height: 3px;
+    margin-left: 90px;
+    margin-top: 40px;
+    background-color: red;
+}
+
+.lora {
+    margin-left: auto;
+    margin-right: auto;
+    width: 941px;
+    height: 39px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgba(153, 153, 153, 255);
+}
+.team {
+    display: flex;
+    max-width: 1210px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Mat {
+    max-width: 385px;
+}
+
+.Mt {
+    width: 383px;
+    height: 473px;
+    background-image: url(./Mat.png);
+}
+
+.opa {
+    width: 383px;
+    height: 473px;
+    background-color: rgb(187, 59, 8);
+    margin-top: -473px;
+    opacity: 0.7;
+    visibility: hidden;
+    position: relative;
+}
+
+.brick {
+    width: 224px;
+    height: 56px;
+    background-image: url(./Yellobrick.png);
+    position: relative;
+    top: 230px;
+    left: 100px;
+    display: flex;
+}
+
+.f1 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+    position: relative;
+}
+
+.fa1 {
+    width: 13px;
+    height: 26px;
+    background-image: url(./facebook.png);
+    position: relative;
+    left: 20px;
+    top: 17px;
+}
+
+.twi1 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.twit1 {
+    width: 26px;
+    height: 22px;
+    background-image: url(./twitter.png);
+    position: relative;
+    left: 17px;
+    top: 17px;
+}
+
+.pi1 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.pin1 {
+    width: 20px;
+    height: 22px;
+    background-image: url(./pinterest.png);
+    position: relative;
+    top: 17px;
+    left: 17px;
+}
+
+.inst1 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.insta1 {
+    width: 26px;
+    height: 26px;
+    background-image: url(./instagram.png);
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.f1:hover,
+.twi1:hover,
+.pi1:hover,
+.inst1:hover {
+    background-color: aquamarine;
+}
+
+.Mat:hover .opa {
+    visibility: visible;
+}
+.d {
+    font-size: 14pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+.grd {
+    font-size: 15pt;
+    color: rgba(153, 153, 153, 255);
+    text-align: center;
+}
+.Chris {
+    max-width: 385px;
+}
+
+.CHR {
+    width: 383px;
+    height: 473px;
+    background-image: url(./Chris.png);
+}
+
+.opal {
+    width: 383px;
+    height: 473px;
+    background-color: rgb(187, 59, 8);
+    margin-top: -473px;
+    opacity: 0.7;
+    visibility: hidden;
+    position: relative;
+}
+
+.brick1 {
+    width: 224px;
+    height: 56px;
+    background-image: url(./Yellobrick.png);
+    position: relative;
+    top: 230px;
+    left: 100px;
+    display: flex;
+}
+
+.f2 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+    position: relative;
+}
+
+.fa2 {
+    width: 13px;
+    height: 26px;
+    background-image: url(./facebook.png);
+    position: relative;
+    left: 20px;
+    top: 17px;
+}
+
+.twi2 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.twit2 {
+    width: 26px;
+    height: 22px;
+    background-image: url(./twitter.png);
+    position: relative;
+    left: 17px;
+    top: 17px;
+}
+
+.pi2 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.pin2 {
+    width: 20px;
+    height: 22px;
+    background-image: url(./pinterest.png);
+    position: relative;
+    top: 17px;
+    left: 17px;
+}
+
+.inst2 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.insta2 {
+    width: 26px;
+    height: 26px;
+    background-image: url(./instagram.png);
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.f2:hover,
+.twi2:hover,
+.pi2:hover,
+.inst2:hover {
+    background-color: aquamarine;
+}
+
+.Chris:hover .opal {
+    visibility: visible;
+}
+.cc {
+    font-size: 14pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+.bud {
+    font-size: 15pt;
+    color: rgba(153, 153, 153, 255);
+    text-align: center;
+}
+.Michael {
+    max-width: 385px;
+}
+
+.MCL {
+    width: 383px;
+    height: 473px;
+    background-image: url(./Michael.png);
+}
+
+.opala {
+    width: 383px;
+    height: 473px;
+    background-color: rgb(187, 59, 8);
+    margin-top: -473px;
+    opacity: 0.7;
+    visibility: hidden;
+    position: relative;
+}
+
+.brick2 {
+    width: 224px;
+    height: 56px;
+    background-image: url(./Yellobrick.png);
+    position: relative;
+    top: 230px;
+    left: 100px;
+    display: flex;
+}
+
+.f3 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+    position: relative;
+}
+
+.fa3 {
+    width: 13px;
+    height: 26px;
+    background-image: url(./facebook.png);
+    position: relative;
+    left: 20px;
+    top: 17px;
+}
+
+.twi3 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.twit3 {
+    width: 26px;
+    height: 22px;
+    background-image: url(./twitter.png);
+    position: relative;
+    left: 17px;
+    top: 17px;
+}
+
+.pi3 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.pin3 {
+    width: 20px;
+    height: 22px;
+    background-image: url(./pinterest.png);
+    position: relative;
+    top: 17px;
+    left: 17px;
+}
+
+.inst3 {
+    width: 56px;
+    height: 53px;
+    border: rgb(255, 255, 134) 2px solid;
+}
+
+.insta3 {
+    width: 26px;
+    height: 26px;
+    background-image: url(./instagram.png);
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.f3:hover,
+.twi3:hover,
+.pi3:hover,
+.inst3:hover {
+    background-color: aquamarine;
+}
+
+.Michael:hover .opala {
+    visibility: visible;
+}
+.mf {
+    font-size: 14pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+.dr {
+    font-size: 15pt;
+    color: rgba(153, 153, 153, 255);
+    text-align: center;
+}
