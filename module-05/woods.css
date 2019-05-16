@@ -1,0 +1,616 @@
+/* header */
+.Mart {
+    margin-left: 200px;
+}
+
+.Mart::first-letter {
+    color: greenyellow;
+}
+
+.inform {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -70px;
+    margin-left: 900px;
+}
+
+.item1 {
+    color: rgb(40, 233, 40);
+}
+
+/* main */
+.girls {
+    width: 1600px;
+    height: 600px;
+    background-image: url(./Consejos-cientificos-para-olvidar-a-tu-ex-7-1620x600.jpg);
+}
+
+.mtext {
+    margin-top: -350px;
+    margin-left: 400px;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
+    display: flex;
+}
+
+.mtext::before {
+    content: "";
+    display: table;
+    clear: both;
+    width: 104px;
+    height: 104px;
+    background-image: url(./arrow\ left.png);
+    float: left;
+}
+
+.mtext::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 104px;
+    height: 104px;
+    background-image: url(./arrow\ right.png);
+
+}
+
+/* body */
+.NC {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 350px;
+    margin-left: 600px;
+}
+
+.NC::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 164px;
+    height: 7px;
+    background-color: green;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btg1 {
+    width: 255px;
+    height: 284px;
+    background-image: url(./blue\ t-shirt\ guy.png);
+}
+
+.lo1 {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -50px;
+}
+
+.lol1 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.la1 {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.lal1 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.First:hover .lo1{
+    background-color: green;
+}
+
+.First:hover .la1 {
+    background-color: green;
+}
+
+.smth1 {
+    width: 255px;
+    height: 260px;
+    background-image: url(./something.png);
+    margin-top: -300px;
+    visibility: hidden;
+    position: relative;
+}
+
+.First:hover .smth1 {
+    visibility: visible;
+}
+
+.heart1 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 50px;
+    margin-top: -160px;
+    position: relative;
+    top: 80px;
+}
+
+.sheart1 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./heart.png);
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.crossroads1 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 110px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+}
+
+.crossroadsi1 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./crossroads.png);
+    margin-left: 15px;
+}
+
+.clock1 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 155px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+
+.clocki1 {
+    width: 24px;
+    height: 25px;
+    background-image: url(./clock.png);
+    margin-left: 15px;
+}
+
+.cart1 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./bbox.png);
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.carti1 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./AddToCart.png);
+}
+
+.heart1:hover {
+    background-color: green;
+}
+
+.crossroads1:hover {
+    background-color: green;
+}
+
+.clock1:hover {
+    background-color: green;
+}
+.btg2 {
+    width: 255px;
+    height: 284px;
+    background-image: url(./blackhair.png);
+}
+
+.lo2 {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -50px;
+}
+
+.lol2 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.la2 {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.lal2 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.Second:hover .lo2 {
+    background-color: green;
+}
+
+.Second:hover .la2 {
+    background-color: green;
+}
+
+.smth2 {
+    width: 255px;
+    height: 260px;
+    background-image: url(./something.png);
+    margin-top: -300px;
+    visibility: hidden;
+    position: relative;
+}
+
+.Second:hover .smth2 {
+    visibility: visible;
+}
+
+.heart2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 50px;
+    margin-top: -160px;
+    position: relative;
+    top: 80px;
+}
+
+.sheart2 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./heart.png);
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.crossroads2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 110px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+}
+
+.crossroadsi2 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./crossroads.png);
+    margin-left: 15px;
+}
+
+.clock2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 155px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+
+.clocki2 {
+    width: 24px;
+    height: 25px;
+    background-image: url(./clock.png);
+    margin-left: 15px;
+}
+
+.cart2 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./bbox.png);
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.carti2 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./AddToCart.png);
+}
+
+.heart2:hover {
+    background-color: green;
+}
+
+.crossroads2:hover {
+    background-color: green;
+}
+
+.clock2:hover {
+    background-color: green;
+}
+.btg3{
+    width: 255px;
+    height: 284px;
+    background-image: url(./yellowguy.png);
+}
+
+.lo3 {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -50px;
+}
+
+.lol3 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.la3 {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.lal3 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.Third:hover .lo3 {
+    background-color: green;
+}
+
+.Third:hover .la3 {
+    background-color: green;
+}
+
+.smth3 {
+    width: 255px;
+    height: 260px;
+    background-image: url(./something.png);
+    margin-top: -300px;
+    visibility: hidden;
+    position: relative;
+}
+
+.Third:hover .smth3 {
+    visibility: visible;
+}
+
+.heart3 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 50px;
+    margin-top: -160px;
+    position: relative;
+    top: 80px;
+}
+
+.sheart3 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./heart.png);
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.crossroads3 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 110px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+}
+
+.crossroadsi3 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./crossroads.png);
+    margin-left: 15px;
+}
+
+.clock3 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 155px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+
+.clocki3 {
+    width: 24px;
+    height: 25px;
+    background-image: url(./clock.png);
+    margin-left: 15px;
+}
+
+.cart3 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./bbox.png);
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.carti3 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./AddToCart.png);
+}
+
+.heart3:hover {
+    background-color: green;
+}
+
+.crossroads3:hover {
+    background-color: green;
+}
+
+.clock3:hover {
+    background-color: green;
+}
+.btg4{
+    width: 255px;
+    height: 284px;
+    background-image: url(./nakedgirl.png);
+}
+
+.lo4 {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -50px;
+}
+
+.lol4 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.la4 {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.lal4 {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.Forth:hover .lo4 {
+    background-color: green;
+}
+
+.Forth:hover .la4 {
+    background-color: green;
+}
+
+.smth4 {
+    width: 255px;
+    height: 260px;
+    background-image: url(./something.png);
+    margin-top: -300px;
+    visibility: hidden;
+    position: relative;
+}
+
+.Forth:hover .smth4 {
+    visibility: visible;
+}
+
+.heart4 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 50px;
+    margin-top: -160px;
+    position: relative;
+    top: 80px;
+}
+
+.sheart4 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./heart.png);
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.crossroads4 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 110px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+}
+
+.crossroadsi4 {
+    width: 25px;
+    height: 25px;
+    background-image: url(./crossroads.png);
+    margin-left: 15px;
+}
+
+.clock4 {
+    width: 50px;
+    height: 50px;
+    background-image: url(./WhiteNothing.png);
+    margin-left: 155px;
+    margin-top: -50px;
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+
+.clocki4 {
+    width: 24px;
+    height: 25px;
+    background-image: url(./clock.png);
+    margin-left: 15px;
+}
+
+.cart4 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./bbox.png);
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.carti4 {
+    width: 166px;
+    height: 50px;
+    background-image: url(./AddToCart.png);
+}
+
+.heart4:hover {
+    background-color: green;
+}
+
+.crossroads4:hover {
+    background-color: green;
+}
+
+.clock4:hover {
+    background-color: green;
+}
