@@ -1,0 +1,573 @@
+.mart {
+    font-size: 40px;
+    margin-left: 190px;
+}
+
+.mart::first-letter {
+    color: greenyellow;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 450px;
+    margin-top: -75px;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.item1 {
+    color: greenyellow;
+}
+
+.FP {
+    text-align: center;
+}
+
+.FP::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 200px;
+    height: 10px;
+    background-color: green;
+    margin-left: 670px;
+    margin-top: 10px;
+}
+
+.shoe {
+    width: 255px;
+    height: 281px;
+    background-image: url(./Shoe.png);
+}
+
+.bt {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -20px;
+}
+
+.let {
+    color: azure;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.price1 {
+    width: 54px;
+    height: 38px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -38px;
+}
+
+.ts {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.First:hover .price1 {
+    background-color: green;
+}
+
+.First:hover .bt {
+    background-color: green;
+}
+
+.First {
+    width: 260px;
+}
+
+.tyfla {
+    width: 256px;
+    height: 282px;
+    background-image: url(./tyfli.png);
+}
+
+.featprod {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.lam {
+    width: 254px;
+    height: 41px;
+    background-color: black;
+    margin-top: -20px;
+}
+
+.la {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.to {
+    width: 55px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.lo {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Second:hover .lam {
+    background-color: green;
+}
+
+.Second:hover .to {
+    background-color: green;
+}
+
+.shlp {
+    width: 251px;
+    height: 281px;
+    background-image: url(./hat.png);
+    margin-left: 10px;
+}
+
+.ha {
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+
+.hl {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ho {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 197px;
+    margin-top: -42px;
+}
+
+.hlo {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Third:hover .ha {
+    background-color: green;
+}
+
+.Third:hover .ho {
+    background-color: green;
+}
+
+.symka {
+    width: 254px;
+    height: 281px;
+    background-image: url(./symka.png);
+}
+
+.so {
+    width: 254px;
+    height: 40px;
+    background-color: black;
+    margin-left: 1px;
+    margin-top: -17px;
+}
+
+.sl {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sa {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.sal {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Fourth:hover .so {
+    background-color: green;
+}
+
+.Fourth:hover .sa {
+    background-color: green;
+}
+
+.featprod2 {
+    display: flex;
+    /* justify-content: space-evenly;
+    flex-flow: wrap; */
+}
+
+.Fifth {
+    /* margin-left: -1058px; */
+    margin-top: 30px;
+    margin-left: 94px;
+}
+
+.bag {
+    width: 254px;
+    height: 280px;
+    background-image: url(./bag.png);
+}
+
+.mo {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -17px;
+}
+
+.mol {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ma {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.mal {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Fifth:hover .mo {
+    background-color: green;
+}
+
+.Fifth:hover .ma {
+    background-color: green;
+}
+
+.Sixth {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.lether {
+    width: 256px;
+    height: 281px;
+    background-image: url(./leather.png);
+}
+
+.bo {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -17px;
+}
+
+.bol {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ba {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 201px;
+    margin-top: -42px;
+}
+
+.bal {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Sixth:hover .bo {
+    background-color: green;
+}
+
+.Sixth:hover .ba {
+    background-color: green;
+}
+
+.Seventh {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.lethertyfli {
+    width: 256px;
+    height: 280px;
+    background-image: url(./letyfli.png);
+}
+
+.ti {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -16px;
+}
+
+.til {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ta {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.tal {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Seventh:hover .ti {
+    background-color: green;
+}
+
+.Seventh:hover .ta {
+    background-color: green;
+}
+
+.Eighth {
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+.ochki {
+    width: 253px;
+    height: 282px;
+    background-image: url(./ochki.png);
+}
+
+.ok {
+    width: 255px;
+    height: 40px;
+    background-color: black;
+    margin-top: -17px;
+}
+
+.okl {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.oka {
+    width: 54px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: -42px;
+}
+
+.okal {
+    color: azure;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Eighth:hover .ok {
+    background-color: green;
+}
+
+.Eighth:hover .oka {
+    background-color: green;
+}
+
+.LN {
+
+    font-size: 40px;
+
+    text-align: center;
+
+}
+
+.LN::after {
+
+    content: "";
+
+    display: table;
+
+    clear: both;
+
+    width: 200px;
+
+    height: 10px;
+
+    background-color: green;
+
+    margin-left: 670px;
+
+    margin-top: 10px;
+
+}
+.tablo {
+    width: 500px;
+}
+.tablet {
+
+    height: 262px;
+
+    width: 350px;
+
+}
+.tabl {
+    max-width: 300px;
+}
+.tabl::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: green;
+    margin-top: 15px;
+}
+.g1 {
+
+    font-size: 14px;
+
+    text-align: left;
+
+    flex-direction: column;
+
+    max-width: 335px;
+
+}
+.girlu {
+    max-width: 900px;
+    margin-top: -230px;
+}
+.girls {
+
+    margin-left: 500px;
+
+    margin-top: -500px;
+
+}
+.girl1 {
+    max-width: 385px;
+    text-align: center;
+    margin-left: 470px;
+}
+.girl1::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: green;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.g2 {
+
+    font-size: 14px;
+
+    text-align: center;
+
+    max-width: 200px;
+
+    margin-left: 500px;
+    max-width: 335px;
+
+}
+.busi {
+    max-width: 335px;
+margin-left: 1000px;
+margin-top: -222px;
+}
+
+.bus {
+
+
+    height: 265px;
+
+    width: 340px;
+
+    margin-top: -570px;
+
+}
+.bus1 {
+    text-align: right;
+}
+.bus1 ::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: green;
+}
+.g3 {
+
+    font-size: 14px;
+
+    text-align: center;
+
+    max-width: 335px;
+
+
+}
+
+.r1 {
+
+    background-image: url(./ReadMore.png);
+
+    height: 50px;
+
+    width: 160px;
+
+}
+
+.r2 {
+
+    background-image: url(./ReadMore.png);
+
+    height: 50px;
+
+    width: 160px;
+
+    margin-left: 500px;
+
+}
+
+.r3 {
+
+    background-image: url(./ReadMore.png);
+
+    height: 50px;
+
+    width: 160px;
+}
