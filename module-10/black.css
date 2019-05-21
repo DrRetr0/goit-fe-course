@@ -28,9 +28,10 @@
     text-decoration: underline;
 }
 .kimo {
-    width: 1920px;
-    height: 1134px;
+    width: 1500px;
+    /* height: 1134px; */
     background: linear-gradient(rgba(247, 60, 3, 0.5), rgba(241, 218, 5, 0.5)),  url(./Orel.png);
+    padding-bottom: 250px;
 }
 .citi {
     color: aliceblue;
